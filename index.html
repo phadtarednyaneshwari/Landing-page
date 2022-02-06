@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Landing Page</title>
+
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kid's</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="banner_section">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="banner">
+                    <div class="banner_img">
+                        <img src="img/slide01.jpg" alt="" srcset="">
+                    </div>
+                    <div class="banner_text">
+                        <h1><span>Women's</span> Fashion 2022</h1>
+                        <p>
+                            We create Brands.For more click on shop now.
+                        </p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner">
+                    <div class="banner_img">
+                        <img src="img/slide02.jpg" alt="" srcset="">
+                    </div>
+                    <div class="banner_text">
+                        <h1><span>Men's</span> Fashion 2022</h1>
+                        <p>
+                            We create Brands.For more click on shop now.
+                        </p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner">
+                    <div class="banner_img">
+                        <img src="img/slide03.jpg" alt="" srcset="">
+                    </div>
+                    <div class="banner_text">
+                        <h1><span>Kid's</span> Fashion 202</h1>
+                        <p>
+                            We create Brands.For more click on shop now.
+                        </p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+
+    </script>
+
+  
+
+</body>
+</html>
